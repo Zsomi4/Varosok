@@ -36,7 +36,9 @@ public class App {
     public static void kiir_mellett(String[] tomb) {
         for (int i = 0; i < 50; i++) {
             System.out.print(tomb[i] + " ");
-            System.out.print("i:" + i);
+            if (i%4 == 0) {
+               System.out.print("i:" + i); 
+            }
         }            
     }
 
